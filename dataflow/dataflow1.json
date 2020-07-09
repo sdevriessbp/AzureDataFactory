@@ -14,7 +14,7 @@
 			],
 			"sinks": [],
 			"transformations": [],
-			"script": "source(allowSchemaDrift: true,\n\tvalidateSchema: false,\n\tentity: '',\n\tformat: 'cdm',\n\tmanifestType: 'manifest',\n\tfolderPath: '',\n\tfileSystem: '',\n\tignoreNoFilesFound: false) ~> source1"
+			"script": "source(allowSchemaDrift: true,\n\tvalidateSchema: false,\n\tentity: '',\n\tformat: 'cdm',\n\tmanifestType: 'manifest',\n\tentityPath: 'azuredatafactory',\n\tfolderPath: 'azuredatafactory',\n\tfileSystem: 'azuredatafactor',\n\tignoreNoFilesFound: false) ~> source1"
 		}
 	}
 }
