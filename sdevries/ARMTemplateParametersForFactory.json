@@ -4,6 +4,15 @@
 	"parameters": {
 		"factoryName": {
 			"value": "sdevries"
+		},
+		"Blob_accountKey": {
+			"value": ""
+		},
+		"linkedService1_connectionString": {
+			"value": ""
+		},
+		"Blob_properties_typeProperties_url": {
+			"value": "https://sdevries.dfs.core.windows.net"
 		}
 	}
 }
