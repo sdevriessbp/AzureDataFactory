@@ -4,18 +4,6 @@
 	"parameters": {
 		"factoryName": {
 			"value": "sdevries"
-		},
-		"AzureBlobStorage1_connectionString": {
-			"value": ""
-		},
-		"AzureDataLakeStorage1_accountKey": {
-			"value": ""
-		},
-		"linkedService1_connectionString": {
-			"value": ""
-		},
-		"AzureDataLakeStorage1_properties_typeProperties_url": {
-			"value": "https://sdevries.dfs.core.windows.net"
 		}
 	}
 }
